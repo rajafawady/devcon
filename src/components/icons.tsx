@@ -82,5 +82,15 @@ export const Icons = {
     </svg>
   ),
   twitter: Twitter,
-  check: Check
+  check: Check,
+  google: (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} viewBox='0 0 24 24' fill='currentColor'>
+      <path d='M21.35 11.1H12v2.7h5.45c-.55 2.7-2.85 4.5-5.45 4.5-3.3 0-6-2.7-6-6s2.7-6 6-6c1.5 0 2.85.55 3.9 1.5l2.1-2.1C16.95 3.6 14.6 2.5 12 2.5 6.85 2.5 2.5 6.85 2.5 12s4.35 9.5 9.5 9.5c5.05 0 9.15-4.1 9.15-9.15 0-.55-.05-1.1-.15-1.65z' />
+    </svg>
+  ),
+  facebook: (props: React.SVGProps<SVGSVGElement>) => (
+    <svg {...props} viewBox='0 0 24 24' fill='currentColor'>
+      <path d='M22.675 0h-21.35C.595 0 0 .6 0 1.325v21.35C0 23.405.595 24 1.325 24h11.475V14.7h-3.15v-3.6h3.15v-2.625c0-3.15 1.925-4.875 4.725-4.875 1.35 0 2.475.1 2.8.15v3.225h-1.925c-1.5 0-1.8.725-1.8 1.775V11.1h3.6l-.45 3.6h-3.15V24h6.15C23.4 24 24 23.405 24 22.675v-21.35C24 .595 23.405 0 22.675 0z' />
+    </svg>
+  )
 };
